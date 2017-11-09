@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Administraci&oacute;n</title>
+	<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+	
+</head>
+<body onload="document.f.j_username.focus();">
+<div class="login-card">
+<h1>Inicio de sesi&oacute;n<img class="candado"  src="candado.png"></h1><br>
+<form name="f" action="j_spring_security_check" method="POST">
+	<input type='text' name='j_username' value='' placeholder="Nombre Usuario"/>
+	<input type='password' name='j_password' placeholder="Contrase&ntilde;a">
+	<input type="checkbox" name="_spring_security_remember_me">
+	Recordar contrase&ntilde;a
+
+<input name="submit" type="submit" class="login login-submit" value="Acceder">
+		<input name="reset" type="reset"   class="login login-submit" value="Restablecer">
+ <a href="Bienvenidos.html">Salir</a>	
+</form>
+</div>	
+</body>
+</html>
